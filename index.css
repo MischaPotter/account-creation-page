@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+#title {
+    text-align: center;
+    text-shadow: 2px 2px #1fc600;
+    padding-top: 20px;
+}
+
+#username-input {
+    margin: -20px 10px 10px 10px;
+    font-family: 'Arvo', serif;
+}
+
+#password-input, #password-input-two {
+    margin: 10px;
+    font-family: 'Arvo', serif;
+}
+
+#enter-btn {
+    border: 0px;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;;
+    background-color: #1fc600;
+    font-family: 'Arvo', serif;
+}
+
+#enter-btn:hover {
+    background-color: #089000;
+}
+
+.width-shortener {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+
+}
+
+#username-check, #password-check {
+    color: red;
+    margin: 0px;
+    text-align: center;
+}
+
+#background {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEXT09OdeqMBAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-size: 600px 300px;
+    background-position: top;
+
+}
+
+#requirements {
+    position: relative;
+    left: 40px; bottom: 140px;
+    font-size: larger;
+    background-color: #D3D3D3;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+li {
+    padding: 5px;
+}
+/*
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+
+*/

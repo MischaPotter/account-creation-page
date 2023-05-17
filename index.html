@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Create Account</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+        <title>Create account</title>
+    </head>
+    <body>
+        <script src="index.js">
+        </script>
+        <div id="background">
+            <h1 id="title">Make a Username and Password</h1>
+
+            <div class="width-shortener">
+
+                    <input placeholder="Username or Email" id="username-input" type="text">
+                    <p id="username-check"></p>
+                    <input placeholder="Password" id="password-input" type="password">
+                    <input placeholder="Password Again" id="password-input-two" type="password">
+                    <p id="password-check"></p>
+                    
+                <button id="enter-btn" onclick="checkCredentials()">Enter</button>
+            </div>
+            <div id="requirements">
+                <h3>Requirements:</h3>
+                <ol>
+                    <li>Username must be at least 5 characters long</li>
+                    <li>Password must be at least 7 letters long</li>
+                    <!-- <li>Username must contain at least one of the following symbols: !, @, #, $, *</li> -->
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- onclick="checkCredentials()" -->
